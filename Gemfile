@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem 'paperclip', '~> 4.2' #at the writing of this post  
+gem 'simple_form', '~> 3.1.0'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
